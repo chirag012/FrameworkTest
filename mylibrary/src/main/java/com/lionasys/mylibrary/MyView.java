@@ -22,8 +22,7 @@ public class MyView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.my_view);
 
-        MobileAds.initialize(getApplicationContext(),
-                "ca-app-pub-3940256099942544~3347511713");
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544~3347511713");
 
         relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
 
